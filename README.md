@@ -1,2 +1,2 @@
 # webpack_starter
-Webpack starter
+学习入门webpack
