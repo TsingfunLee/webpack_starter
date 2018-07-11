@@ -1,0 +1,31 @@
+{
+  "name": "webpack_starter",
+  "version": "0.1.0",
+  "description": "a webpack start project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm test",
+		"build": "webpack --config config/webpack.config.js",
+    "dev": "webpack-dev-server --config config/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TsingfunLee/webpack_starter.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "TsingfunLee (https://github.com/TsingfunLee)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TsingfunLee/webpack_starter/issues"
+  },
+  "homepage": "https://github.com/TsingfunLee/webpack_starter#readme",
+  "dependencies": {
+    "npm": "^6.1.0",
+    "webpack": "^4.15.1"
+  },
+  "devDependencies": {
+    "webpack-command": "^0.4.1"
+  }
+}
